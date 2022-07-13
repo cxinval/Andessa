@@ -1,0 +1,78 @@
+.logo
+    min-height: 36px
+    &-icon
+        max-width: 138px
+        width: 100%
+        height: 41.26px
+    &-up
+        display: flex
+        flex-direction: column
+        & span
+            text-align: start
+            font-style: normal
+            font-weight: 500
+            font-size: 10px
+            line-height: 12px
+            color: #1F2324
+            letter-spacing: 0.9px
+
+.header
+    padding-top: 23px
+    padding-bottom: 60px
+    &-up
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 32px
+    &-link
+        display: flex
+        align-items: center
+        &__exit
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 17px
+            text-decoration-line: underline
+            color: #969696
+        &__phone
+            font-style: normal
+            font-weight: 500
+            font-size: 16px
+            line-height: 20px
+            color: #1F2324
+    &-icon
+        width: 20px
+        height: 20px
+        stroke: #969696
+        fill: rgba(126, 134, 158, 0.25)
+        &--w
+            width: 24px
+            height: 24px
+    &-adress
+        font-style: normal
+        font-weight: 500
+        font-size: 12px
+        line-height: 15px
+        color: #969696
+    &-down
+        display: flex
+        justify-content: space-between
+        max-width: 1044px
+        & a
+            font-style: normal
+            font-weight: 500
+            font-size: 16px
+            line-height: 20px
+            color: #1F2324
+            position: relative
+            padding-bottom: 5px
+            &::before
+                content: ""
+                display: block
+                width: 0
+                height: 3px
+                position: absolute
+                left: 0
+                bottom: 0
+                background-color: #1648A8
+                transition: all 0.2s linear
