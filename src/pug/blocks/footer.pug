@@ -1,6 +1,39 @@
 footer.footer 
-
-
+    .container 
+        .footer-wrap 
+            .footer-left 
+                include logo
+                .footer-left__icons 
+                    a.header-link.footer-left__icon(href="#") 
+                        <svg class="header-icon">
+                            <use xlink:href="../img/icons.svg#telegram"></use>
+                        </svg>                
+                    a.header-link(href="#") 
+                        <svg class="header-icon">
+                            <use xlink:href="../img/icons.svg#whatsapp"></use>
+                        </svg> 
+                span 2021 © Все права защищены         
+            .footer-center 
+                    .footer-center__item
+                        a(href="#") Доставка / Оплата
+                        a(href="#") Каталог
+                        a(href="#") Политика обработки персональных данных
+                    .footer-center__item
+                        a(href="#") О компании
+                        a(href="#") Услуги
+                        a(href="#") Гарантии
+                        a(href="#") Опыт
+                    .footer-center__item
+                        a(href="#") Новости
+                        a(href="#") Контакты
+            .footer-right 
+                a.header-link(href="tel:+7 (812) 904-91-57") 
+                    <svg class="header-icon header-icon--w mr-8">
+                        <use xlink:href="../img/icons.svg#phone"></use>
+                    </svg>
+                    span.header-link__phone +7 (812) 904-91-57 
+                span.footer-right__text Гельсингфорсская ул., 4 корпус 1,  Санкт-Петербург, 194044
+                a.footer-right__mail(href="HJYolv@woevg.com") HJYolv@woevg.com            
 
 
 
